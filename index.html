@@ -89,7 +89,7 @@
 
         .abt1 h1 {
             text-align: center;
-            margin-top: -65px;
+            margin-top: -69px;
             margin-right: 68px;
             font-size: 5vw;
             text-transform: uppercase;
@@ -97,13 +97,14 @@
         }
 
         .abt2 h4 {
-            text-align: left;
+            text-align: justify;
             margin-left: 50px;
             margin-top: 30px;
-            margin-top: 60px;
-            font-family: Georgia;
+            /* font-family: Georgia; */
+            font-family: sans-serif;
             font-size: 1.4vw;
             font-weight: bold;
+            margin-left: 160px;
 
         }
 
@@ -111,7 +112,7 @@
             border-color: blueviolet;
             border-style: hidden;
             height: 200px;
-            width: 460px;
+            width: 650px;
             margin-left: 35px;
         }
 
@@ -120,6 +121,7 @@
             text-align: justify;
             font-family: sans-serif;
             font-size: 1.1vw;
+            margin-left: 130px;
         }
 
         @media (max-width : 360px) {
@@ -150,7 +152,7 @@
                 font-size: 4.5vw;
                 margin-right: 55px;
                 margin-left: 10px;
-                
+
             }
         }
 
@@ -160,6 +162,7 @@
             height: 70px;
             width: 500px;
             margin-top: 60px;
+            margin-left: 120px;
         }
 
         .social a {
@@ -167,6 +170,90 @@
             word-spacing: 10px;
             margin-right: 20px;
             margin-left: 10px;
+        }
+
+        .about2 {
+            display: flex;
+            border: 2px;
+            height: 350px;
+            width: 1450px;
+            border-color: aquamarine;
+            border-style: hidden;
+        }
+
+        .skills {
+            border: 2px;
+            border-color: brown;
+            border-style: hidden;
+            width: 660px;
+        }
+
+        .skills h4 {
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 1.7vw;
+        }
+
+        .skills1 {
+            margin-bottom: -70px;
+            margin-left: 40px;
+            border: 2px;
+            height: 400px;
+            width: 650px;
+            border-style: hidden;
+            border-color: blue;
+        }
+
+        .skills1 h5 {
+            margin-top: 40px;
+            margin-left: 65px;
+            font-family: sans-serif;
+            font-weight: 570;
+        }
+
+        .skills1 h6 {
+
+            margin-left: 65px;
+            font-family: sans-serif;
+            font-weight: 550;
+        }
+
+        .progress {
+            width: 350px;
+            margin-left: 65px;
+
+        }
+
+        .progress1 {
+            width: 350px;
+
+        }
+
+        .tech {
+            border: 2px;
+            height: 600px;
+            width: 1050px;
+            border-style: dashed;
+            border-color: brown;
+            margin-left: 90px;
+            margin-right: 40px;
+        }
+
+        .tech h4 {
+            text-align: justify;
+            font-size: 2.5vw;
+            font-family: sans-serif;
+            margin-left: 270px;
+        }
+
+        .tech h1 {
+            text-align: center;
+            margin-top: -75px;
+            margin-right: 73px;
+            font-size: 5vw;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0, 0.1);
+            font-weight: bold;
         }
     </style>
 </head>
@@ -180,7 +267,7 @@
 
 
     <div class="intro">
-        <img src="pexels-roberto-nickson-2559941.jpg" alt="profile" class="image">
+        <img src="images/pexels-roberto-nickson-2559941.jpg" alt="profile" class="image">
         <a class="name"> Pratik Mali <span> Full Stack Developer </span> </a>
         <!-- <a class="name1">Full Stack Developer</a> -->
     </div>
@@ -190,20 +277,47 @@
         <div class="abt1">
             <h1> about </h1>
         </div>
-        <div class="abt2">
-            <h4> Hey There !</h4>
-            <div class="abt3">
-                <p> My name is Pratik. I have graduated from Sandip University, Nashik. A fast learner with keen
-                    interest in
-                    Software Development and Computer Programming Languages.</p>
-                <div class="social">
+        <div class="about2">
+            <div class="abt2">
+                <h4> Hey There !</h4>
+                <div class="abt3">
+                    <p> My name is Pratik. I have graduated from Sandip University, Nashik. A fast learner with keen
+                        interest in
+                        Software Development and Computer Programming Languages.</p>
+                    <div class="social">
 
-                    <a target="_blank" href="https://github.com/IPratikMali" class="bi bi-github"></a>
-                    <a target="_blank" href="mailto:malipratik.2018@gmail.com" class="bi bi-envelope-fill"></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/pratik-mali-6a16251a0/"
-                        class="bi bi-linkedin"></a>
-                    <a target="_blank" href="#" class="bi bi-twitter"></a>
+                        <a target="_blank" href="https://github.com/IPratikMali" class="bi bi-github"></a>
+                        <a target="_blank" href="mailto:malipratik.2018@gmail.com" class="bi bi-envelope-fill"></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/pratik-mali-6a16251a0/"
+                            class="bi bi-linkedin"></a>
+                        <a target="_blank" href="#" class="bi bi-twitter"></a>
+                    </div>
                 </div>
+            </div>
+            <div class="skills">
+                <h4> My Skills </h4>
+                <div class="skills1">
+                    <h5> Full Stack Development </h5>
+                    <h6> (JAVA) </h6>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="40"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <h5> App Development </h5>
+                    <h6> (Android) </h6>
+                    <div class="progress1">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tech">
+            <h4 class="tech1"> Languages I'm familiar with</h4>
+            <div class="tech2">
+                <h1> Tech Stack </h1>
             </div>
         </div>
     </section>
