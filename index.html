@@ -233,7 +233,7 @@
             border: 2px;
             height: 600px;
             width: 1050px;
-            border-style: dashed;
+            border-style: hidden;
             border-color: brown;
             margin-left: 90px;
             margin-right: 40px;
@@ -254,6 +254,50 @@
             text-transform: uppercase;
             color: rgb(0, 0, 0, 0.1);
             font-weight: bold;
+        }
+
+        .row1 {
+            display: flex;
+            margin-left: 100px;
+            padding-top: 40px;
+
+        }
+
+        .row2 {
+            display: flex;
+            margin-left: 100px;
+            padding-top: 30px;
+        }
+
+        .row3 {
+            display: flex;
+            margin-left: 100px;
+            padding-top: 30px;
+        }
+
+        .tech-icons {
+            display: flex;
+            margin-left: 40px;
+            border-style: hidden;
+            border-color: aqua;
+            height: 70px;
+            width: 190px;
+        }
+
+        .tech-icons:hover {
+            background-color: rgba(155, 151, 151, 0.1);
+        }
+
+        .tech-img {
+            height: 40px;
+
+        }
+
+        .tech-name {
+            font-family: sans-serif;
+            font-weight: 100;
+            font-size: 1.3vw;
+            padding-left: 15px;
         }
     </style>
 </head>
@@ -318,6 +362,44 @@
             <h4 class="tech1"> Languages I'm familiar with</h4>
             <div class="tech2">
                 <h1> Tech Stack </h1>
+            </div>
+            <div class="row1">
+                <div class="tech-icons">
+                    <img src="images/c++.png" class="tech-img">
+                    <h3 class="tech-name">C++</h3>
+                </div>
+                <div class="tech-icons">
+                    <img src="images/java.png" class="tech-img">
+                    <h3 class="tech-name">Java</h3>
+                </div>
+                <div class="tech-icons">
+                    <img src="images/javascript.png" class="tech-img">
+                    <h3 class="tech-name">Javascript</h3>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="tech-icons">
+                    <img src="images/html.png" class="tech-img">
+                    <h3 class="tech-name">HTML</h3>
+                </div>
+                <div class="tech-icons">
+                    <img src="images/css.png" class="tech-img">
+                    <h3 class="tech-name">CSS</h3>
+                </div>
+                <div class="tech-icons">
+                    <img src="images/bootstrap.png" class="tech-img">
+                    <h3 class="tech-name">Bootstrap</h3>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="tech-icons">
+                    <img src="images/android.png" class="tech-img">
+                    <h3 class="tech-name">Android</h3>
+                </div>
+                <div class="tech-icons">
+                    <img src="images/sql.png" class="tech-img">
+                    <h3 class="tech-name">SQL</h3>
+                </div>
             </div>
         </div>
     </section>
