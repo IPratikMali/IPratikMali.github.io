@@ -28,7 +28,7 @@ body{
     display: block;
 }
 
-@media(max-width : 360px) {
+@media(max-width : 412px) {
     #nav {
         margin-left: 5px;
     }
@@ -134,7 +134,7 @@ body{
     border-style: hidden;
 }
 
-@media(max-width: 360px) {
+@media(max-width: 412px) {
     .about{
         width: 300px;
     }
