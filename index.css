@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Poppins';
 }
+
 .intro img {
     height: 320px;
     width: 400px;
@@ -74,8 +75,8 @@ body{
 
 .abt1 h1 {
     text-align: center;
-    margin-top: -69px;
-    margin-right: 68px;
+    margin-top: -75px;
+    margin-right: 100px;
     font-size: 5vw;
     text-transform: uppercase;
     color: rgb(0, 0, 0, 0.1);
@@ -135,38 +136,259 @@ body{
 }
 
 @media(max-width: 412px) {
-    .about{
-        width: 300px; 
+    .about {
+        width: 300px;
     }
-    .abt1 h1{
+
+    .abt1 h1 {
         margin-top: -58px;
         margin-left: 4px;
         margin-right: 100px;
         font-size: 14.5vw;
     }
-    .about h4{
+
+    .about h4 {
         font-size: 7.5vw
     }
-    .about2{
+
+    .about2 {
         width: 250px;
     }
-    .abt2 h4{
+
+    .abt2 h4 {
         margin-left: 13px;
         font-size: 4vw;
     }
-    .abt3{
+
+    .abt3 {
         width: 300px;
     }
-    .abt3 p{
+
+    .abt3 p {
         font-family: 'Poppins';
         width: 350px;
         margin-left: 1px;
         padding-right: 20px;
         font-size: 4.7vw;
     }
-    .social{
+
+    .social {
         width: 300px;
         margin-left: 8px;
         font-size: 0.7rem;
+    }
+
+}
+
+.skills {
+    border: 2px;
+    border-color: brown;
+    border-style: hidden;
+    width: 660px;
+}
+
+.skills h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.skills1 {
+    margin-bottom: -70px;
+    margin-left: 40px;
+    border: 2px;
+    height: 400px;
+    width: 650px;
+    border-style: hidden;
+    border-color: blue;
+}
+
+.skills1 h5 {
+    margin-top: 40px;
+    margin-left: 65px;
+    font-family: sans-serif;
+    font-weight: 570;
+}
+
+.skills1 h6 {
+
+    margin-left: 65px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.progress {
+    width: 350px;
+    margin-left: 65px;
+
+}
+
+.progress1 {
+    width: 350px;
+
+}
+
+@media(max-width: 412px) {
+    .skills1{
+        width: 500px;
+    }
+    .about2 {
+        flex-direction: column;
+    }
+
+    .skills {
+        width: 300px;
+        margin-top: 200px;
+    }
+
+    .skills h4 {
+        font-size: 7.5vw;
+    }
+
+    .skills h5 {
+        width: 250px;
+        font-size: 4.5vw;
+        margin-top: 50px;
+        margin-left: 1px;
+        margin-right: 340px;
+    }
+
+    .skills h6 {
+        margin-left: 1px;
+        margin-right: 340px;
+    }
+    .progress , .progress1{
+        width: 200px;
+        margin-top: 17px;
+        margin-left: 1.5px;
+        margin-right: 360px;
+    }
+    
+}
+.tech {
+    border: 2px;
+    height: 490px;
+    width: 1050px;
+    border-style: hidden;
+    border-color: brown;
+    margin-left: 90px;
+    margin-right: 40px;
+}
+
+.tech h4 {
+    text-align: justify;
+    font-size: 2.5vw;
+    font-family: sans-serif;
+    margin-left: 113px;
+}
+
+.tech h1 {
+    text-align: justify;
+    margin-top: -75px;
+    margin-left: 113px;
+    font-size: 5vw;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.row1 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 40px;
+
+}
+
+.row2 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.row3 {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+
+.tech-icons {
+    display: flex;
+    margin-left: 40px;
+    border-style: hidden;
+    border-color: aqua;
+    height: 70px;
+    width: 190px;
+}
+
+.tech-icons:hover {
+    background-color: rgba(155, 151, 151, 0.1);
+}
+
+.tech-img {
+    height: 40px;
+
+}
+
+.tech-name {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 1.3vw;
+    padding-left: 15px;
+}
+@media(max-width : 412px){
+    .tech{
+        height: 800px;
+        width: 240px;
+        margin-top: 600px;
+        margin-right: 200px;
+        margin-left: 20px;
+    }
+    .tech h4{
+        color: rgb(0, 0, 0, 0);
+    }
+    .tech h1{
+        color: black;
+        margin-left: 40px;
+        font-size: 6.5vw;
+    }
+    .row1{
+        flex-direction: column;
+        margin-left: 20px;
+        
+    }
+    .row2{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .row3{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .tech-name{
+        font-size: 3.5vw;
+    }
+    .tech-img{
+        height: 65px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .tech-icons{
+        height: 100px;
+        width: 200px;
+    }
+    #img-js{
+        padding-left: 2px;
+        margin-left: -12px;
+        margin-right: 2px;
+    }
+    #name-js{
+        width: 120px;
+        margin-left: -25px;
+    }
+    #img-sql{
+        margin-left: -10px;
+    }
+    #name-sql{
+        margin-left: - 25px;
     }
 }
