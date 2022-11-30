@@ -229,9 +229,10 @@ body {
 }
 
 @media(max-width: 412px) {
-    .skills1{
+    .skills1 {
         width: 500px;
     }
+
     .about2 {
         flex-direction: column;
     }
@@ -257,14 +258,17 @@ body {
         margin-left: 1px;
         margin-right: 340px;
     }
-    .progress , .progress1{
+
+    .progress,
+    .progress1 {
         width: 200px;
         margin-top: 17px;
         margin-left: 1.5px;
         margin-right: 360px;
     }
-    
+
 }
+
 .tech {
     border: 2px;
     height: 490px;
@@ -335,60 +339,370 @@ body {
     font-size: 1.3vw;
     padding-left: 15px;
 }
-@media(max-width : 412px){
-    .tech{
+
+@media(max-width : 412px) {
+    .tech {
         height: 800px;
         width: 240px;
         margin-top: 600px;
         margin-right: 200px;
         margin-left: 20px;
     }
-    .tech h4{
+
+    .tech h4 {
         color: rgb(0, 0, 0, 0);
     }
-    .tech h1{
+
+    .tech h1 {
         color: black;
         margin-left: 40px;
         font-size: 6.5vw;
     }
-    .row1{
+
+    .row1 {
         flex-direction: column;
         margin-left: 20px;
-        
+
     }
-    .row2{
-        flex-direction: column;
-        margin-left: 20px;
-    }
-    .row3{
+
+    .row2 {
         flex-direction: column;
         margin-left: 20px;
     }
-    .tech-name{
+
+    .row3 {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .tech-name {
         font-size: 3.5vw;
     }
-    .tech-img{
+
+    .tech-img {
         height: 65px;
         margin-left: 10px;
         padding-left: 10px;
     }
-    .tech-icons{
+
+    .tech-icons {
         height: 100px;
         width: 200px;
     }
-    #img-js{
+
+    #img-js {
         padding-left: 2px;
         margin-left: -12px;
         margin-right: 2px;
     }
-    #name-js{
+
+    #name-js {
         width: 120px;
         margin-left: -25px;
     }
-    #img-sql{
+
+    #img-sql {
         margin-left: -10px;
     }
-    #name-sql{
+
+    #name-sql {
         margin-left: - 25px;
+    }
+}
+
+.edu {
+    height: 390px;
+    width: 1050px;
+    border: 2px;
+    border-color: aqua;
+    border-style: hidden;
+    margin: 10px 90px;
+}
+
+.edu1 {
+    text-align: justify;
+    font-size: 3vw;
+    font-family: sans-serif;
+    margin-left: 113px;
+    margin-right: 350px;
+}
+
+.edu2 h1 {
+    text-align: justify;
+    margin-top: -69px;
+    margin-left: 113px;
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.edu .dg {
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 113px;
+}
+
+.edu .clg {
+    text-align: justify;
+    margin-left: 113px;
+}
+
+.edu .yop,
+.cgpa {
+    text-align: justify;
+    margin-left: 113px;
+}
+
+@media(max-width : 412px) {
+    .edu {
+        width: 400px;
+        margin-top: 180px;
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+
+    .edu1 {
+        font-size: 12vw;
+        font-style: 'Poppins';
+        margin-left: 40px;
+    }
+
+    .edu2 h1 {
+        color: rgb(0, 0, 0, 0);
+    }
+
+    .edu .dg {
+        margin-top: 90px;
+        font-size: 6vw;
+        margin-left: 20px;
+    }
+
+    .edu .clg {
+        font-size: 5vw;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .edu .yop,
+    .cgpa {
+        text-align: justify;
+        margin-left: 16px;
+        font-size: 5vw;
+    }
+}
+
+.exp {
+    height: 490px;
+    width: 1050px;
+    border: 2px;
+    border-color: blueviolet;
+    border-style: hidden;
+    margin: 10px 90px;
+}
+
+.exp1 {
+    text-align: justify;
+    font-size: 2.8vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 6px;
+    margin-left: 113px;
+}
+
+.exp2 h1 {
+    text-align: justify;
+    margin-top: -69px;
+    margin-left: 113px;
+    font-size: 5.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.exp .ps {
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 113px;
+    font-size: 1.5vw;
+}
+
+.exp .date,
+.desc {
+    text-align: justify;
+    margin-left: 113px;
+}
+
+@media (max-width : 412px) {
+    .exp {
+        margin-top: 100px;
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .exp2 h1 {
+        color: rgb(0, 0, 0, 0);
+    }
+
+    .exp1 {
+        font-size: 12vw;
+        margin-left: 25px;
+    }
+
+    .exp .ps {
+        margin-top: 90px;
+        font-size: 7vw;
+        margin-left: 25px;
+    }
+
+    .exp .date,
+    .desc {
+        font-size: 5vw;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+}
+
+.pro {
+    height: 390px;
+    width: 1050px;
+    border: 2px;
+    border-color: black;
+    border-style: hidden;
+    margin: 10px 90px;
+
+}
+
+.pro1 {
+    text-align: justify;
+    font-size: 3.5vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 113px;
+    margin-right: 344px;
+}
+
+.pro2 h1 {
+    text-align: justify;
+    margin-top: -76px;
+    margin-left: 110px;
+    font-size: 5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.pro .proname,
+.prolink {
+    margin-top: 30px;
+    text-align: justify;
+    margin-left: 113px;
+}
+
+.pro .desc {
+    margin-top: 20px;
+}
+
+@media(max-width : 412px) {
+    .pro {
+        margin-top: 350px;
+        height: 500px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .pro2 h1 {
+        color: rgb(0, 0, 0, 0);
+    }
+
+    .pro1 {
+        font-size: 12vw;
+        margin-left: 20px;
+    }
+
+    .pro .proname,
+    .prolink {
+        margin-top: 90px;
+        margin-left: 20px;
+        font-size: 6vw;
+    }
+    .pro .desc{
+        font-size: 5vw;
+    }
+}
+.conn {
+    height: 390px;
+    width: 1050px;
+    border: 2px;
+    border-color: brown;
+    border-style: hidden;
+    margin: 10px 90px;
+
+}
+
+.conn1 {
+    text-align: justify;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 6px;
+    margin-left: 113px;
+
+}
+
+.conn2 h1 {
+    text-align: justify;
+    margin-top: -69px;
+    margin-left: 113px;
+    font-size: 5.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.conn .ty {
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 113px;
+}
+
+.arrow i {
+    margin-left: 400px;
+    height: 100px;
+    width: 500px;
+    font-size: 3rem;
+}
+
+.conn .social {
+    margin-top: 35px;
+    margin-left: 350px;
+}
+
+@media(max-width : 412px){
+    .conn{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .conn2 h1{
+        color: rgb(0, 0, 0, 0);
+    }
+    .conn1{
+        font-size: 12vw;
+        margin-left: 20px;
+    }
+    .conn .ty{
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    .arrow i{
+        margin-left: 100px;
+    }
+    .conn .social{
+        margin-left: 20px;
+        
     }
 }
