@@ -377,6 +377,7 @@ body {
 
     .tech-name {
         font-size: 3.5vw;
+        font-weight : bold;
     }
 
     .tech-img {
