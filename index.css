@@ -170,6 +170,9 @@ body {
     margin-right: 20px;
     box-shadow: 0px 0px 15px rgb(0, 238, 255);
 }
+.sc1:hover{
+    box-shadow: 0px 0px 15px rgb(35, 237, 52);
+}
 
 
 
@@ -182,6 +185,9 @@ body {
     margin-right: 20px;
     box-shadow: 0px 0px 15px rgb(32, 18, 224);
 }
+.sc2:hover{
+    box-shadow: 0px 0px 15px rgb(251, 9, 186);
+}
 
 .sc3 {
     height: 50px;
@@ -192,6 +198,9 @@ body {
     margin-right: 20px;
     box-shadow: 0px 0px 15px rgb(254, 10, 10);
 }
+.sc3:hover{
+    box-shadow: 0px 0px 15px rgb(0, 238, 255);
+}
 
 .sc4 {
     height: 50px;
@@ -201,6 +210,9 @@ body {
     margin-left: 65px;
     margin-right: 20px;
     box-shadow: 0px 0px 15px rgb(255, 9, 198);
+}
+.sc4:hover{
+    box-shadow: 0px 0px 15px rgb(221, 255, 0);
 }
 
 .sc5 {
@@ -213,6 +225,9 @@ body {
     box-shadow: 0px 0px 15px rgb(20, 63, 86);
 }
 
+.sc5:hover{
+    box-shadow: 0px 0px 15px rgb(255, 98, 0);
+}
 .gap {
     height: 35px;
     width: 100%;
