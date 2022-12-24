@@ -1,4 +1,4 @@
-@media screen and (max-width : 369px) {
+@media screen and (max-width : 368px) {
     html{
         width: 100vw;
     }
@@ -41,7 +41,13 @@
         border-radius: 50%;
 
     }
-
+    .animated{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .first{
+        font-size: 1.1rem;
+    }
     .sc1 {
         margin-left: -78px;
     }
