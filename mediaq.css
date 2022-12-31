@@ -308,7 +308,7 @@
 
 
 */
-@media screen and (max-width : 768px){
+@media screen and (min-width : 369px ) and (max-width : 768px){
     html{
         width: 100vw;
     }
